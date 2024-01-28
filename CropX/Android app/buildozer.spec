@@ -4,10 +4,10 @@
 title = My Application
 
 # (str) Package name
-package.name = myapp
+package.name = CropX
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.test
+package.domain = CropXapp.com
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -452,6 +452,6 @@ warn_on_root = 1
 #buildozer --profile demo android debug
 
 # (Add these lines to the end of buildozer.spec)
-requirements = python3,kivy,pyjnius,pillow
-android.permissions = CAMERA
+requirements = python3,kivy,pyjnius,Pillow
+android.permissions = INTERNET,CAMERA,WRITE_EXTERNAL_STORAGE
 
